@@ -1,0 +1,32 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 70px;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+.disabled_stat {
+  pointer-events: none;
+  cursor: default;
+}
+
+.paging {
+  text-align: right;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: inherit;
+  font-size: 0.9em;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
